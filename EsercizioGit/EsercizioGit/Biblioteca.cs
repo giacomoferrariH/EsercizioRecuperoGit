@@ -10,13 +10,12 @@ namespace EsercizioGit
     {
         string nome, indirizzo, orarioApertura, orarioChiusura;
         List<Libro> libri;
-        public Biblioteca(string nome, string indirizzo, string orarioApertura, string orarioChiusura, List<Libro> libri)
+        public Biblioteca(string nome, string indirizzo, string orarioApertura, string orarioChiusura)
         {
             this.nome = nome;
             this.indirizzo = indirizzo;
             this.orarioApertura = orarioApertura;
             this.orarioChiusura = orarioChiusura;
-            this.libri = libri;
         }
         public string Nome { get; set; }
         public string Indirizzo { get; set; }

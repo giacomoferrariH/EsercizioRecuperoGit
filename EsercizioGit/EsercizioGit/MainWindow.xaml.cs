@@ -24,10 +24,12 @@ namespace EsercizioGit
         {
             InitializeComponent();
         }
+        List<Libro> libri = new List<Libro>();
+        Biblioteca Malatestiana = new Biblioteca("Biblioteca Malatestiana", "Piazza Maurizio Bufalini, N°1, 47521 Cesena FC", "8", "21");
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void AggiungiLibro_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Aggiungi Libro" HorizontalAlignment="Left" Height="42" Margin="76,306,0,0" VerticalAlignment="Top" Width="94" Click="Button_Click"/>
+        <Button Content="Aggiungi Libro" HorizontalAlignment="Left" Height="42" Margin="76,306,0,0" VerticalAlignment="Top" Width="94" Click="AggiungiLibro_Click"/>
         <TextBox HorizontalAlignment="Left" Height="35" Margin="76,80,0,0" TextWrapping="Wrap" Text="Autore" VerticalAlignment="Top" Width="94"/>
         <TextBox HorizontalAlignment="Left" Height="35" Margin="76,120,0,0" TextWrapping="Wrap" Text="Titolo" VerticalAlignment="Top" Width="94"/>
         <TextBox HorizontalAlignment="Left" Height="35" Margin="76,160,0,0" TextWrapping="Wrap" Text="Anno di Pubblicazione" VerticalAlignment="Top" Width="94" TextChanged="TextBox_TextChanged"/>
@@ -17,9 +17,9 @@
         <TextBox HorizontalAlignment="Left" Height="40" Margin="621,169,0,0" TextWrapping="Wrap" Text="Apertura" VerticalAlignment="Top" Width="124" TextChanged="TextBox_TextChanged"/>
         <TextBox HorizontalAlignment="Left" Height="40" Margin="621,124,0,0" TextWrapping="Wrap" Text="Indirizzo" VerticalAlignment="Top" Width="124"/>
         <TextBox HorizontalAlignment="Left" Height="40" Margin="621,259,0,0" TextWrapping="Wrap" Text="Nome" VerticalAlignment="Top" Width="124"/>
-        <Button Content="Cerca Libro dal Titolo" HorizontalAlignment="Center" Height="56" Margin="0,111,0,0" VerticalAlignment="Top" Width="142"/>
-        <Button Content="Cerca Libro dall'autore" HorizontalAlignment="Center" Height="56" VerticalAlignment="Top" Width="142" Margin="0,191,0,0"/>
-        <Button Content="Elenco Libri Biblioteca" HorizontalAlignment="Center" Height="56" Margin="0,271,0,0" VerticalAlignment="Top" Width="142"/>
+        <Button Content="Cerca Libro dal Titolo" HorizontalAlignment="Center" Height="56" Margin="0,111,0,0" VerticalAlignment="Top" Width="142" Click="Button_Click_1"/>
+        <Button Content="Cerca Libro dall'autore" HorizontalAlignment="Center" Height="56" VerticalAlignment="Top" Width="142" Margin="0,191,0,0" Click="Button_Click_2"/>
+        <Button Content="Elenco Libri Biblioteca" HorizontalAlignment="Center" Height="56" Margin="0,271,0,0" VerticalAlignment="Top" Width="142" Click="Button_Click_3"/>
 
     </Grid>
 </Window>
