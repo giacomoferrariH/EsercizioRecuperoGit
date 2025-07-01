@@ -8,11 +8,11 @@ namespace EsercizioGit
 {
     internal class Libro
     {
-        string Autore { get; set; }
-        string Titolo { get; set; }
-        string Editore { get; set; }
-        int Anno { get; set; }
-        int Pagine { get; set; }
+        public string Autore { get; set; }
+        public string Titolo { get; set; }
+        public string Editore { get; set; }
+        public int Anno { get; set; }
+        public int Pagine { get; set; }
 
         public Libro(string autore, string titolo, string editore, int anno, int pagine)
         {
