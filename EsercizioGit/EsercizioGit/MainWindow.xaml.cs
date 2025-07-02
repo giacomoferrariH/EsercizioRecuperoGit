@@ -32,17 +32,17 @@ namespace EsercizioGit
             
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void CercaLibro_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void CercaAutore_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void Button_Click_3(object sender, RoutedEventArgs e)
+        private void ElencoLibri_Click(object sender, RoutedEventArgs e)
         {
 
         }
